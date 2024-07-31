@@ -1,0 +1,14 @@
+.rstm-search {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.rstm-search:focus {
+  outline: none;
+  border-color: #179ed3 !important;
+  box-shadow: 0 0 5px rgba(23, 158, 211, 0.5) !important;
+}
